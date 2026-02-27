@@ -1,0 +1,15 @@
+{
+  "appId": "com.example.app",
+  "appName": "aaaaaaaaaaaa",
+  "webDir": "dist",
+  "plugins": { "SplashScreen": { "launchAutoHide": false } },
+  "android": {
+    "buildOptions": {
+      "keystorePath": "keystore/debug.keystore",
+      "keystorePassword": "android",
+      "keystoreAlias": "androiddebugkey",
+      "keystoreAliasPassword": "android",
+      "signingType": "jarsigner"
+    }
+  }
+}
